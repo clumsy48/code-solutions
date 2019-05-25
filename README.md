@@ -1,3 +1,3 @@
 # code-solutions
 
-Create projects implements Immutable queue to some operations
+this creates projects implements Immutable queue to some operations
