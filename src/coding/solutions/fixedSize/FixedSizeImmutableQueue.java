@@ -1,13 +1,15 @@
-package coding.solutions;
+package coding.solutions.fixedSize;
 
-public class ImmutableQueue<T> implements Queue<T> {
+import coding.solutions.Queue;
+
+public class FixedSizeImmutableQueue<T> implements Queue<T> {
 
   private Object[] queueStorage;
   int rear;
   private final int HEAD = 0;
   int capacity ;
 
-  public ImmutableQueue(int capacity) {
+  public FixedSizeImmutableQueue(int capacity) {
     this.rear = -1;
     this.capacity = capacity;
     this.queueStorage = new Object[capacity];
@@ -30,7 +32,7 @@ public class ImmutableQueue<T> implements Queue<T> {
    *     removes front element and returns new queue.
    */
   public Queue<T> deQueue() {
-    ImmutableQueue newQueue = new ImmutableQueue<>(capacity);
+    FixedSizeImmutableQueue newQueue = new FixedSizeImmutableQueue<>(capacity);
     Object[] localQueueStorage = new Object[capacity];
     if(isEmpty()){
       System.out.println("Queue is empty , No  Elements can be removed");

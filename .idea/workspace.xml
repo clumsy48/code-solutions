@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="255ad84b-a407-45d5-9885-ca32b19f0367" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/coding/solutions/dynamic/DynamicImmutableQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coding/solutions/fixedSize/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coding/solutions/fixedSize/FixedSizeImmutableQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coding/solutions/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coding/solutions/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coding/solutions/dynamic/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coding/solutions/ImmutableQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coding/solutions/ImmutableQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coding/solutions/fixedSize/FixedSizeImmutableQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,28 +20,49 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/coding/solutions/Driver.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/coding/solutions/dynamic/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/coding/solutions/ImmutableQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/coding/solutions/fixedSize/FixedSizeImmutableQueue.java">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coding/solutions/fixedSize/Driver.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coding/solutions/dynamic/DynamicImmutableQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1429#1430#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -60,6 +89,9 @@
         <option value="$PROJECT_DIR$/src/com.github.clumsy48/main/ImmutableQueue.java" />
         <option value="$PROJECT_DIR$/src/coding/solutions/Queue.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/coding/solutions/fixedSize/Driver.java" />
+        <option value="$PROJECT_DIR$/src/coding/solutions/dynamic/DynamicImmutableQueue.java" />
+        <option value="$PROJECT_DIR$/src/coding/solutions/dynamic/Driver.java" />
       </list>
     </option>
   </component>
@@ -74,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,31 +114,56 @@
               <item name="code-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-solutions" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="solutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="fixedSize" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558742696415" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558891247225" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\github\code-solutions\code-solutions\src\coding\solutions\fixedSize" />
+      <recent name="B:\github\code-solutions\code-solutions\src\coding\solutions" />
+      <recent name="B:\github\code-solutions\code-solutions\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\github\code-solutions\code-solutions\src\main\com.github.clumsy48" />
       <recent name="B:\github\code-solutions\code-solutions\src\main" />
       <recent name="B:\github\code-solutions\code-solutions\src" />
       <recent name="B:\github\code-solutions\code-solutions\.idea" />
       <recent name="B:\github\code-solutions\code-solutions\src\com.github.clumsy48" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="B:\github\code-solutions\code-solutions\src\coding\solutions" />
-      <recent name="B:\github\code-solutions\code-solutions\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,13 +178,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding.solutions.Driver" />
+  <component name="RunManager" selected="Application.Driver (1)">
+    <configuration name="Driver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.solutions.fixedSize.Driver" />
       <module name="code-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coding.solutions.*" />
+          <option name="PATTERN" value="coding.solutions.fixedSize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.solutions.dynamic.Driver" />
+      <module name="code-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coding.solutions.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +207,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Driver (1)" />
         <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
@@ -157,54 +229,50 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/com.github.clumsy48/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com.github.clumsy48/Queue.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com.github.clumsy48/Driver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com.github.clumsy48/ImmutableQueue.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coding/solutions/fixedSize/FixedSizeImmutableQueue.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com.github.clumsy48/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com.github.clumsy48/ImmutableQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/coding/solutions/ImmutableQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/coding/solutions/fixedSize/Driver.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/coding/solutions/Queue.java">
@@ -214,17 +282,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/coding/solutions/Driver.java">
+    <entry file="file://$PROJECT_DIR$/src/coding/solutions/dynamic/DynamicImmutableQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="274">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/coding/solutions/dynamic/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

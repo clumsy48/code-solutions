@@ -1,8 +1,8 @@
-package coding.solutions;
+package coding.solutions.fixedSize;
 
 public class Driver {
     public static void main(String args[]){
-        ImmutableQueue<Integer> queue = new ImmutableQueue<Integer>(4);
+        FixedSizeImmutableQueue<Integer> queue = new FixedSizeImmutableQueue<Integer>(4);
         System.out.println(queue.isEmpty() + " Current queue size : "+queue.getCurrentSize());
 
         queue.enQueue(15);
@@ -25,23 +25,23 @@ public class Driver {
         System.out.println(queue.head() + " Current queue size : "+queue.getCurrentSize());
         System.out.println(queue.isEmpty() + " Current queue size : "+queue.getCurrentSize());
         System.out.println("--------------------------------------");
-        queue = (ImmutableQueue<Integer>)queue.deQueue();
+        queue = (FixedSizeImmutableQueue<Integer>)queue.deQueue();
         System.out.println(queue.head() + " Current queue size : "+queue.getCurrentSize());
         System.out.println(queue.isEmpty() + " Current queue size : "+queue.getCurrentSize());
 
-        queue = (ImmutableQueue<Integer>)queue.deQueue();
+        queue = (FixedSizeImmutableQueue<Integer>)queue.deQueue();
         System.out.println(queue.head() + " Current queue size : "+queue.getCurrentSize());
         System.out.println(queue.isEmpty() + " Current queue size : "+queue.getCurrentSize());
 
-        queue = (ImmutableQueue<Integer>)queue.deQueue();
+        queue = (FixedSizeImmutableQueue<Integer>)queue.deQueue();
         System.out.println(queue.head() + " Current queue size : "+queue.getCurrentSize());
         System.out.println(queue.isEmpty() + " Current queue size : "+queue.getCurrentSize());;
 
-        queue = (ImmutableQueue<Integer>)queue.deQueue();
+        queue = (FixedSizeImmutableQueue<Integer>)queue.deQueue();
         System.out.println(queue.head() + " Current queue size : "+queue.getCurrentSize());
         System.out.println(queue.isEmpty() + " Current queue size : "+queue.getCurrentSize());
 
-        queue = (ImmutableQueue<Integer>)queue.deQueue();
+        queue = (FixedSizeImmutableQueue<Integer>)queue.deQueue();
         System.out.println(queue.head() + " Current queue size : "+queue.getCurrentSize());
         System.out.println(queue.isEmpty() + " Current queue size : "+queue.getCurrentSize());
 
